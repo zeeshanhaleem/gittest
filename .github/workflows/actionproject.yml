@@ -32,4 +32,4 @@ jobs:
       - name: Installing Surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge .\gittest20201.surge.sh --token $ {{secrets.SEC1122}}
+        run: surge .\gittest20201.surge.sh --token "a8055d4f0ea0d132153a9664a84cdfec"
